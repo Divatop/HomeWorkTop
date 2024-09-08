@@ -12,20 +12,7 @@ public class HomeWork {
 
 
 
-                int a = 20;
-                int b = 5;
 
-                int primer1 = a + b;
-                int primer2 = a - b;
-                int primer3 = a * b;
-                int primer4 = a / b;
-                int primer5 = a % b;
-
-                System.out.println("Сложение: " + primer1);
-                System.out.println("Вычитание: " + primer2);
-                System.out.println("Умножение: " + primer3);
-                System.out.println("Деление: " + primer4);
-                System.out.println("Остаток от деления: "  + primer5);
 
 
 
