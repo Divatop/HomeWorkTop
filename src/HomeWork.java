@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class HomeWork {
 
-   public static void main(String[] args) {
+    public static void main(String[] args) {
         byte byte1 = 125;
         short short1 = 23_457;
         int int1 = 2_345_457;
@@ -11,33 +13,24 @@ public class HomeWork {
         boolean is1 = true;
 
 
-       int a = 20;
-       int b = 5;
+        // Дополнение предыдущего кода
+        Scanner sc1 = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int a = sc1.nextInt();
+        System.out.print("Введите число: ");
+        int b = sc1.nextInt();
+        int primer1 = a + b;
+        int primer2 = a - b;
+        int primer3 = a * b;
+        int primer4 = a / b;
+        int primer5 = a % b;
 
-       int primer1 = a + b;
-       int primer2 = a - b;
-       int primer3 = a * b;
-       int primer4 = a / b;
-       int primer5 = a % b;
-
-       System.out.println("Сложение: " + primer1);
-       System.out.println("Вычитание: " + primer2);
-       System.out.println("Умножение: " + primer3);
-       System.out.println("Деление: " + primer4);
-       System.out.println("Остаток от деления: "  + primer5);
-
-
-
-
-
+        System.out.println("Сложение: " + primer1);
+        System.out.println("Вычитание: " + primer2);
+        System.out.println("Умножение: " + primer3);
+        System.out.println("Деление: " + primer4);
+        System.out.println("Остаток от деления: " + primer5);
 
 
-
-
-
-
-
-
-
-   }
+    }
 }
