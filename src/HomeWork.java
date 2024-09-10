@@ -38,7 +38,7 @@ public class HomeWork {
         //System.out.println("Полученный результат: " + num1 + num2 + num3 + num4);
 
 
-        int fil = 3_157_875;
+        int fil1 = 3_157_875;
         long fil2 = 4_785_734_125L;
         int fil3 = (int) fil2;
         System.out.println("Результат long: " + fil2);
